@@ -1,6 +1,6 @@
 from functions import get_todos,write_todos
 import time
-
+print('Im a big boy')
 print('Today is',time.strftime("%B %d, %Y %H:%M:%S"))
 while True:
     user_action = input("Type add, edit, show, complete or exit: ").strip()
